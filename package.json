@@ -1,8 +1,9 @@
 {
-  "name": "plivo-sms",
+  "name": "plivo-sms-poc",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,9 +11,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "body-parser": "^2.2.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "plivo": "^4.69.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
